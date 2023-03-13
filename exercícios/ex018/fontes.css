@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2? família=Rubik:wght@300edisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+p{
+    font-family: 'Rubik', sans-serif;
+    text-align: center ;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
