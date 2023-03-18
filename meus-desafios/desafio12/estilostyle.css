@@ -54,8 +54,10 @@ section{
     line-height: 2em;
     padding-left: 20px;
     font-family: var(--fonte3);
-    font-size: 2.3vw;
+    font-size: 2.8vw;
 }
+
+
 
 
 section.normal{
@@ -66,11 +68,28 @@ section.normal{
 section.imagem{
     background-color: rgba(24, 23, 23, 0.795);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
 }
 
+section#img01{
+    background-image: url(../desafio12/imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-size:cover
+    
+}
+
+
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.452);
-    width: 500px;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 40vw;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
