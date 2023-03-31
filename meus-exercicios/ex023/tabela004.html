@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Com Dados Reais</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td,th{
+            border: 1px solid gray;
+        }
+        th{
+            padding: 5px;
+        }
+        td{
+            padding: 5px;
+        }
+        caption{
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz souza</td>
+                <td>Hulk</td>
+                <td>Shazam</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Interestelar</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Bruno melo</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>It - A coisa</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Robocop</td>
+                <td>Cangal</td>
+                <td>Wall f</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star wars</td>
+                <td>Taxi</td>
+                <td>Toy Stoty</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
